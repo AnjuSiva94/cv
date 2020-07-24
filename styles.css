@@ -1,0 +1,58 @@
+body {
+  background-color: #edf492
+}
+
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+} 
+
+hr {
+
+
+  border-style: dotted;
+  border-top-style: none;;
+  border-color: #f8b24f;
+  border-width: thick;
+  width: 5%
+}
+h1 {
+  color: #ba7967;
+  font-family:"Arial Black", Gadget, sans-serif
+}
+h2 {
+  color: #ba7967;
+
+}
+h3 {
+  color: #ba7967
+}
+
+
+p{
+  font-style: italic;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+.circular{
+  border-radius: 100%;
+  animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    20% {border-radius: 10px;}
+  }
